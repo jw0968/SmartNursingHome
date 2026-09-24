@@ -2,7 +2,7 @@
 
 **Privacy-first fall detection for care facilities.** A browser app on the patient side runs pose estimation on-device and only ever sends a boolean alarm; a native iOS app on the caregiver side gets that alarm in real time. Raw video never leaves the room.
 
-(this was a project I made for a hackathon a while ago. had claude push it just now for gits and shiggles)
+(this was a project I made for a hackathon a while ago. had claude push it just now for fun)
 
 ```
 Patient device (browser)                 Firebase Realtime DB              Caregiver iPhone (SwiftUI)
