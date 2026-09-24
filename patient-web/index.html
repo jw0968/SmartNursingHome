@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patient Fall Monitor</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Patient Camera Fall Monitor</h1>
+        <p>Raw video stays on this device. Only alarm state is sent.</p>
+      </header>
+
+      <section class="controls">
+        <label>
+          Patient ID
+          <input id="patientIdInput" placeholder="patient-001" />
+        </label>
+        <label>
+          Camera ID
+          <input id="cameraIdInput" placeholder="cam-living-room" />
+        </label>
+        <button id="applyConfigBtn">Apply IDs</button>
+      </section>
+
+      <section class="status-row">
+        <div>
+          Firebase mode:
+          <span id="firebaseMode">-</span>
+        </div>
+        <div>
+          Current status:
+          <span id="statusBadge" class="badge ok">OK</span>
+        </div>
+      </section>
+
+      <section class="video-wrap">
+        <video id="video" playsinline muted></video>
+      </section>
+
+      <section>
+        <h2>Debug</h2>
+        <pre id="debugText">Initializing...</pre>
+      </section>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

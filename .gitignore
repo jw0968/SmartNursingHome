@@ -1,0 +1,19 @@
+# Secrets / local config
+patient-web/.env
+patient-web/.env.local
+patient-web/.env.*.local
+
+# Node
+patient-web/node_modules/
+patient-web/dist/
+
+# Xcode
+SmartNursingHome/SmartNursingHome.xcodeproj/xcuserdata/
+SmartNursingHome/SmartNursingHome.xcodeproj/project.xcworkspace/xcuserdata/
+SmartNursingHome/**/xcuserdata/
+SmartNursingHome/**/*.xcuserstate
+SmartNursingHome/**/DerivedData/
+SmartNursingHome/**/build/
+
+# macOS
+.DS_Store

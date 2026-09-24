@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- PLACEHOLDER. Download the real GoogleService-Info.plist for your own Firebase iOS app
+	     (Firebase Console -> Project settings -> General -> Your apps -> iOS app) and replace
+	     this file. The bundle ID must match PRODUCT_BUNDLE_IDENTIFIER in the Xcode project. -->
+	<key>API_KEY</key>
+	<string>INPUT_YOUR_OWN_KEY_HERE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>INPUT_YOUR_OWN_SENDER_ID</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jixinwang.SmartNursingHome</string>
+	<key>PROJECT_ID</key>
+	<string>INPUT_YOUR_OWN_PROJECT_ID</string>
+	<key>STORAGE_BUCKET</key>
+	<string>INPUT_YOUR_OWN_PROJECT_ID.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>INPUT_YOUR_OWN_APP_ID</string>
+	<key>DATABASE_URL</key>
+	<string>https://INPUT_YOUR_OWN_PROJECT_ID-default-rtdb.firebaseio.com/</string>
+</dict>
+</plist>
